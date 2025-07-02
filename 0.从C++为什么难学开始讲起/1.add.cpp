@@ -15,7 +15,7 @@ int add1(int a, int b) {
 
 // 面向对象
 class ADD {
-public :
+public:
 	int operator()(int a, int b) const {
 		return a + b;
 	}

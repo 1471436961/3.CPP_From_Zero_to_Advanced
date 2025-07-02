@@ -20,7 +20,7 @@ int add(int a, int b) {
 }
 
 class ADD {
-public : 
+public: 
     int operator()(int a, int b) const {
         cout << "function object : ";
         return a + b;

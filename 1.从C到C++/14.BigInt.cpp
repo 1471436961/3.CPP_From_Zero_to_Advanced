@@ -12,7 +12,7 @@ using namespace std;
 #define MAX_N 500
 
 class BigInt : public vector<int> {
-public : 
+public: 
     BigInt(int x = 0) { 
         push_back(0);
         process_digit();
