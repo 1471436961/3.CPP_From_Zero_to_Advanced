@@ -53,7 +53,7 @@ int main() {
     P(add<double>(3.4, 6));
     P(add(3.4, 6));
     P(add(6, 3.4));
-    // decltype 关键字：当成括号类表达式的类型
+    // decltype 关键字：根据表达式推导/萃取类型
     decltype(3.4 + 6) a;
     is_type(a);
 
